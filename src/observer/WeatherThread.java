@@ -16,7 +16,7 @@ public class WeatherThread extends Thread
             System.out.println("In " + Thread.currentThread().getName() + " the weather is: ");
             currentWeather.updateWeather();
             try {
-                Thread.sleep(1000);
+                Thread.sleep(1);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
