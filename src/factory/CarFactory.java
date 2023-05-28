@@ -5,8 +5,8 @@ public class CarFactory extends Factory {
     public Car createCar(CarType carType) {
 
         switch (carType) {
-            case CMax -> return new Ford();
-            case
+//            case CMax -> return new Ford();
+//            case
 
         }
 
